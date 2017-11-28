@@ -1,1 +1,1 @@
-web: sudo gunicorn server
+web: gunicorn server
