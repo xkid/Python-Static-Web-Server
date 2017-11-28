@@ -144,5 +144,5 @@ def graceful_shutdown(sig, dummy):
 signal.signal(signal.SIGINT, graceful_shutdown)
 
 print ("Starting web server")
-s = Server(80)  # construct server object
+s = Server(8080)  # construct server object
 s.activate_server() # aquire the socket
